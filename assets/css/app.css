@@ -4902,7 +4902,7 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 12px; }
 
 body:before {
   top: 0; }
@@ -4913,14 +4913,14 @@ body:after {
 .rsvp-btn {
   height: 30px;
   width: 85px;
-  padding-top: 5px;
+  padding-top: 4px;
   border: 1px solid #999999;
   float: right;
   text-align: center;
   margin: 20px 40px 0px 0px; }
   .rsvp-btn a {
     color: #000000;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600; }
 
 .parent-container {
@@ -4937,19 +4937,19 @@ body:after {
 .name, .date {
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 11px;
   text-transform: uppercase;
   font-family: "proxima-nova"; }
 
 .name {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 300; }
 
 .date {
-  margin-bottom: 100px;
-  font-size: 14px;
+  margin-bottom: 95px;
+  font-size: 13px;
   font-weight: 400;
-  padding-top: 1.3rem; }
+  padding-top: 1rem; }
 
 .item-title {
   font-family: "proxima-nova", sans-serif;
@@ -4958,7 +4958,7 @@ body:after {
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 15px; }
 
 .sub-item {
@@ -4969,7 +4969,7 @@ body:after {
   color: #000000;
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
   display: inline-block;
   margin-right: 6px; }
   .sub-item:hover {
@@ -4979,16 +4979,16 @@ body:after {
   font-family: "ff-meta-serif-web-pro";
   font-style: italic;
   -webkit-font-smoothing: antialiased;
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 2px; }
 
 .more-info {
   font-family: "ff-meta-serif-web-pro";
   -webkit-font-smoothing: antialiased;
-  font-size: 14px; }
+  font-size: 12px; }
 
 .cont-text {
-  padding-top: 25px; }
+  padding-top: 16px; }
 
 .chevron {
   display: inline-block;
@@ -5002,8 +5002,8 @@ body:after {
 
 .border-btm {
   border-bottom: 1px solid #999999;
-  padding-bottom: 80px;
-  margin-bottom: 65px; }
+  padding-bottom: 75px;
+  margin-bottom: 50px; }
 
 .content {
   padding-left: 6%; }
@@ -5016,7 +5016,7 @@ label {
   font-style: normal;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase; }
 
 input {
@@ -5031,7 +5031,7 @@ select {
   font-style: normal;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
-  font-size: 12px;
+  font-size: 11px;
   border: 1px solid #999999 !important;
   height: 30px !important;
   padding: 0px 0px 0px 8px;
@@ -5040,7 +5040,7 @@ select {
     padding-right: 2px; }
 
 .btn-pad {
-  padding-top: 18px;
+  padding-top: 16px;
   padding-left: 0px;
   padding-right: 0px; }
 
@@ -5051,7 +5051,7 @@ select {
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 11px;
   border: 1px solid #999999;
   height: 30px;
   width: 65px;
@@ -5091,7 +5091,7 @@ select {
   font-style: normal;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
   padding: 10px 25px;
   background-color: #000000;
@@ -5101,7 +5101,33 @@ select {
 
 @media only screen and (max-width: 767px) {
   .date {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  .party-drop {
+    width: 15%;
+    margin-left: 16px; }
+  .confrm-btn {
+    width: 50%;
+    float: left !important; }
+  .first-input {
+    padding-right: 0.9375rem;
+    padding-top: 20px; }
+  .chevron {
+    margin-bottom: 0px; }
+  .extended {
+    padding-top: 0px; }
+  p {
+    margin-bottom: 0px; }
+  .sub-item {
+    margin-bottom: 5px; }
+  .border-btm {
+    padding-bottom: 40px;
+    margin-bottom: 0px; }
+  .mobile-padding {
+    padding-top: 40px; }
+  .spc-btm {
+    padding-bottom: 5px; }
+  .btn-spc {
+    margin-bottom: 20px; } }
 
 hr.first {
   height: 0;
@@ -5127,12 +5153,12 @@ hr.first:after {
   border-radius: 100px;
   overflow: hidden;
   background-color: white;
-  padding: 4px 7px;
+  padding: 5px 7px;
   font-family: "proxima-nova", sans-serif;
   font-style: normal;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
-  font-size: 10px; }
+  font-size: 9px; }
 
 hr.second:after {
   content: "2";
@@ -5146,12 +5172,12 @@ hr.second:after {
   border-radius: 100px;
   overflow: hidden;
   background-color: white;
-  padding: 4px 6px;
+  padding: 5px 6px;
   font-family: "proxima-nova", sans-serif;
   font-style: normal;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
-  font-size: 10px; }
+  font-size: 9px; }
 
 hr.third:after {
   content: "3";
@@ -5165,12 +5191,12 @@ hr.third:after {
   border-radius: 100px;
   overflow: hidden;
   background-color: white;
-  padding: 4px 6px;
+  padding: 5px 6px;
   font-family: "proxima-nova", sans-serif;
   font-style: normal;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
-  font-size: 10px; }
+  font-size: 9px; }
 
 hr.fourth:after {
   content: "4";
@@ -5184,12 +5210,12 @@ hr.fourth:after {
   border-radius: 100px;
   overflow: hidden;
   background-color: white;
-  padding: 4px 6px;
+  padding: 5px 6px;
   font-family: "proxima-nova", sans-serif;
   font-style: normal;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
-  font-size: 10px; }
+  font-size: 9px; }
 
 hr.fifth:after {
   content: "5";
@@ -5203,9 +5229,9 @@ hr.fifth:after {
   border-radius: 100px;
   overflow: hidden;
   background-color: white;
-  padding: 4px 6px;
+  padding: 5px 6px;
   font-family: "proxima-nova", sans-serif;
   font-style: normal;
   letter-spacing: 1px;
   -webkit-font-smoothing: antialiased;
-  font-size: 10px; }
+  font-size: 9px; }
