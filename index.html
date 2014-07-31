@@ -1,29 +1,51 @@
 <!doctype html>
 <html class="no-js" lang="en">
-	<head>
-		<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7573312/703524/css/fonts.css" />
-		<script type="text/javascript" src="//use.typekit.net/rji3mww.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>The Stipechs</title>
-  		<link href="/assets/css/app.min.css" rel="stylesheet" type="text/css" media="all"/>
-  		<script src="/assets/js/vendor/modernizr.min.js"></script>
-		<style>
-	      .js-rsvp--selected {
-	        background: black;
-	        color: white;
-	      }
+  <head>
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7573312/703524/css/fonts.css" />
+    <script type="text/javascript" src="//use.typekit.net/rji3mww.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Stipechs</title>
+    <link href="/assets/css/app.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <script src="/assets/js/vendor/modernizr.min.js"></script>
+    <style>
+      .js-rsvp--selected {
+        background: black;
+        color: white;
+      }
 
-	      iframe[name="hidden-iframe"] {
-	        display: none;
-	      }
+      .js-rsvp-interaction {
+        display: none;
+      }
+
+      .js-rsvp-interaction--form {
+        display: block;
+      }
+
+      #dat-gif-doh {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-left: -26px;
+        margin-top: -6px;
+      }
+
+      #dat-thanks-text-doh {
+        position: relative;
+        top: 50%;
+        text-align: center;
+        margin-top: -12px;
+      }
+
+      iframe[name="hidden-iframe"] {
+        display: none;
+      }
     </style>
-  	
-	</head>
-	<body id="top">
-		 
-     <div class="row parent-container">
+  </head>
+  <body id="top">
+
+    <div class="row parent-container">
       <a class=" rsvp-btn scroll" href="#test">RSVP</a>
       <div class="large-12 columns">
         <div class="logo"><img src="assets/images/logo.png" /></div>
@@ -81,7 +103,7 @@
                 <p class="more-title">Cayucos</p>
                 <p class="more-info border-btm">Smoked Salmon Tacos</p>
               </div>
-              
+
               <div class="large-4 columns">
                 <br/>
                 <a class="sub-item info" href="https://www.google.com/maps/place/Firestone+Grill/@35.281224,-120.660313,17z/data=!3m1!4b1!4m2!3m1!1s0x80ecf1038ce4d9b3:0xddc5dce57cb8de0b">Firestone <div class="chevron"><img src="assets/images/right-chevron.png" /></div></a>
@@ -117,76 +139,85 @@
           </div>
         </div>
 
-                 <div class="row">
-            <div class="small-10 small-centered columns"><hr class="fourth">
-              <div class="row">
-                <div class="large-6 columns hide-for-small">
-                   <h5 class="item-title">Registry</h5>
-               <p class="more-info">We will be moving to New York City shortly after our wedding and have reduced our</p>
-                </div>
-                  <div class="large-6 columns hide-for-small">
-                  <br />
-               <p class="more-info cont-text">belongings to a few boxes! In lieu of gifts we
-                kindly request gift cards to Crate & Barrel.</p>
-                </div>
-                <div class="large-12 columns show-for-small">
-                  <h5 class="item-title">Registry</h5>
-                  <p class="more-info">We will be moving to New York City shortly after our wedding and have reduced our belongings to a few boxes! In lieu of gifts we
-                kindly request gift cards to Crate & Barrel.</p>
-                </div>
-              
+        <div class="row">
+          <div class="small-10 small-centered columns"><hr class="fourth">
+            <div class="row">
+              <div class="large-6 columns hide-for-small">
+                <h5 class="item-title">Registry</h5>
+                <p class="more-info">We will be moving to New York City shortly after our wedding and have reduced our</p>
+              </div>
+              <div class="large-6 columns hide-for-small">
+                <br />
+                <p class="more-info cont-text">belongings to a few boxes! In lieu of gifts we
+                  kindly request gift cards to Crate & Barrel.</p>
+              </div>
+              <div class="large-12 columns show-for-small">
+                <h5 class="item-title">Registry</h5>
+                <p class="more-info">We will be moving to New York City shortly after our wedding and have reduced our belongings to a few boxes! In lieu of gifts we
+                  kindly request gift cards to Crate & Barrel.</p>
               </div>
 
             </div>
+
           </div>
-      
+        </div>
+
         <p > </p>
         <div class="row">
           <div class="small-10 last-container small-centered columns"><hr class="fifth">
+            <div class="js-rsvp-interaction js-rsvp-interaction--form">
+              <div class="row">
+                <div class="large-12 columns">
+                  <h5  id="test" class="item-title">RSVP</h5>
+                  <p class="more-info">Please reply with your name and the number in your party no later than August 14.</p>
+                </div>
+              </div>
+
+              <iframe id="hidden-iframe" name="hidden-iframe" onload="parent.postMessage('hidden-iframe-loaded', '*');" src="about:blank"></iframe>
+              <form id="js-rsvp-the-form" action="https://docs.google.com/forms/d/1DPN1voDbCHH&#45;C4tIt4_QtVGOBvw&#45;DzTf9y3bMNgzyQc/formResponse" method="post" target="hidden-iframe">
+                <div class="row spc-btm">
+                  <div class="large-4 columns first-input">
+                    <label>Name
+                      <input name="entry.1010999148" type="text" placeholder="" />
+                    </label>
+                  </div>
+                  <div class="large-4 columns">
+                    <label id="test">Email
+                      <input name="entry.1315436233" type="text" placeholder="" />
+                    </label>
+                  </div>
+                  <div class="small-1 columns party-drop">
+                    <label>Party
+                      <select name="entry.707984927">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="small-3 confrm-btn columns btn-pad">
+                    <div class="btn js-rsvp-target" data-rsvp-value="yes">yes</div>
+                    <div class="btn right-btn js-rsvp-target" data-rsvp-value="no">no</div>
+                  </div>
+                </div>
+                <input id="js-rsvp-input" type="hidden" name="entry.1630767419" />
+              </form>
+            </div>
+            <div class="js-rsvp-interaction js-rsvp-interaction--in-transit">
+              <img id="dat-gif-doh" src="/assets/images/dots.gif" width="52" height="12" alt="Submitting" />
+            </div>
+            <div class="js-rsvp-interaction js-rsvp-interaction--complete">
+              <h5 class="item-title" id="dat-thanks-text-doh">Thank you for your rsvp</h5>
+            </div>
             <div class="row">
-              <div class="large-12 columns">
-                <h5  id="test" class="item-title">RSVP</h5>
-                <p class="more-info">Please reply with your name and the number in your party no later than August 14.</p>
+              <div class="large-12 columns btn-spc">
+                <hr>
+              </div>
+              <div class="send-container">
+                <a class="send-btn js-rsvp-submit" href="">send</a>
               </div>
             </div>
-            <iframe name="hidden-iframe" onload="parent.postMessage('hidden-iframe-loaded', '*');" src="about:blank"></iframe>
-            <form action="https://docs.google.com/forms/d/1DPN1voDbCHH-C4tIt4_QtVGOBvw-DzTf9y3bMNgzyQc/formResponse" method="post" target="hidden-iframe">
-              <div class="row spc-btm">
-                <div class="large-4 columns first-input">
-                  <label>Name
-                    <input name="entry.1010999148" type="text" placeholder="" />
-                  </label>
-                </div>
-                <div class="large-4 columns">
-                  <label id="test">Email
-                    <input name="entry.1315436233" type="text" placeholder="" />
-                  </label>
-                </div>
-                <div class="small-1 columns party-drop">
-                  <label>Party
-                    <select name="entry.707984927">
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                    </select>
-                  </label>
-                </div>
-                <div class="small-3 confrm-btn columns btn-pad">
-                  <div class="btn js-rsvp-target" data-rsvp-value="yes">yes</div>
-                  <div class="btn right-btn js-rsvp-target" data-rsvp-value="no">no</div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="large-12 columns btn-spc">
-                  <hr>
-                </div>
-                <div class="send-container">
-                  <a class="send-btn js-rsvp-submit" href="">send</a>
-                </div>
-              </div>
-              <input id="js-rsvp-input" type="hidden" name="entry.1630767419" />
-            </form>
           </div>
         </div>
 
@@ -198,20 +229,17 @@
 
 
 
-  		<script src="/assets/js/vendor/jquery.min.js"></script>
-<script src="/assets/js/foundation.min.js"></script>
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+    <script src="/assets/js/foundation.min.js"></script>
 
-<script src="/assets/js/vendor/jquery.min.js"></script>
-<script src="/assets/js/vendor/submit.min.js"></script>
-<script src="/assets/js/vendor/scroll.min.js"></script>
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+    <script src="/assets/js/vendor/submit.js"></script>
+    <script src="/assets/js/vendor/scroll.min.js"></script>
 
-<script>
- $(document).foundation();
-
-
-</script>
-
-
-
-	</body>
+    <script>
+      jQuery.ready(function(){
+        jQuery(document).foundation();
+      });
+    </script>
+  </body>
 </html>
