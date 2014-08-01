@@ -1,3 +1,5 @@
+$(window).on("resize orientationchange", calculateHeight)
+
 transitionToThankYou = function() {
   jQuery(".js-rsvp-interaction").hide()
   jQuery(".js-rsvp-interaction--complete").show()
@@ -6,7 +8,7 @@ transitionToThankYou = function() {
 
 matchHeightsForRsvpStates = function() {
   height = jQuery(".js-rsvp-interaction--form").height();
-  jQuery(".js-rsvp-interaction").height(height);
+  jQuery(".js-rsvp-interaction").not(".js-rsvp-interaction--form").height(height);
 }
 
 selectRsvp = function() {
@@ -34,7 +36,7 @@ transitionToInTransit = function() {
 
 jQuery(function(){
   matchHeightsForRsvpStates()
-
+  jQuery(window).on("resize orientationchange", matchHeightsForRsvpStates)
   jQuery(".js-rsvp-target").click(selectRsvp)
   jQuery(".js-rsvp-submit").click(submitForm)
 });

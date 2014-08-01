@@ -2675,6 +2675,15 @@ select {
     position: absolute;
     right: 16px; }
 
+.show-btn {
+  padding-top: 18px !important; }
+
+.second {
+  right: 72px !important; }
+
+.second-2 {
+  right: 8px !important; }
+
 .party-drop {
   padding-left: 0px;
   padding-right: 0px; }
@@ -2719,7 +2728,7 @@ select {
     width: 80px; }
   .btn-spc {
     margin-bottom: 20px;
-    padding-top: 6rem; }
+    padding-top: 2rem; }
   .btn-pad {
     padding-top: 18px !important; } }
 
@@ -2770,6 +2779,30 @@ select {
     padding-bottom: 0px; }
   .rel-pos {
     position: relative; } }
+
+.show-btn {
+  display: none; }
+
+.party-drop2 {
+  display: none; }
+
+@media only screen and (max-width: 710px) {
+  .spc-btm {
+    padding-bottom: 0px; }
+  .name-entry {
+    width: 100%;
+    padding-right: 0.9375rem; }
+  .email-entry {
+    width: 100%; }
+  .party-drop-1 {
+    display: none !important; }
+  .buttons-1 {
+    display: none !important; }
+  .party-drop2 {
+    display: block !important; }
+  .show-btn {
+    display: block !important;
+    padding-top: 18px; } }
 
 hr.first {
   height: 0;
