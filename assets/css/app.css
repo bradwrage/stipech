@@ -2506,7 +2506,8 @@ body:after {
   bottom: 0; }
 
 .super-script {
-  font-size: 7px; }
+  font-size: 7px;
+  font-weight: 500 !important; }
 
 .rsvp-btn {
   font-family: 'Gotham A', 'Gotham B';
