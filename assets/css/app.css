@@ -2506,7 +2506,7 @@ body:after {
   bottom: 0; }
 
 .super-script {
-  font-size: 9px; }
+  font-size: 7px; }
 
 .rsvp-btn {
   font-family: 'Gotham A', 'Gotham B';
@@ -2548,7 +2548,7 @@ body:after {
 
 .name {
   font-size: 18px;
-  letter-spacing: 3px !important; }
+  letter-spacing: 4px !important; }
 
 .date {
   margin-bottom: 95px;
