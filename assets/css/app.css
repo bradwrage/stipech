@@ -2800,6 +2800,9 @@ select {
   display: none; }
 
 @media only screen and (max-width: 710px) {
+  .party-drop-1 {
+    padding-left: 0.9375rem;
+    width: 25%; }
   .spc-btm {
     padding-bottom: 0px; }
   .name-entry {
