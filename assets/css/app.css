@@ -2739,7 +2739,11 @@ select {
     margin-bottom: 20px;
     padding-top: 2rem; }
   .btn-pad {
-    padding-top: 18px !important; } }
+    padding-top: 18px !important; }
+  .right-btn {
+    right: 15px !important; }
+  .left-btn {
+    right: 79px !important; } }
 
 @media only screen and (max-width: 380px) {
   .btn-pad {
@@ -2803,10 +2807,6 @@ select {
     padding-right: 0.9375rem; }
   .email-entry {
     width: 100%; }
-  .party-drop-1 {
-    display: none !important; }
-  .buttons-1 {
-    display: none !important; }
   .party-drop2 {
     display: block !important; }
   .show-btn {
